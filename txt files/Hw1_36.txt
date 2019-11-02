@@ -1,0 +1,13 @@
+// Hw1_36
+// AUTHOR: Kristin Brooks, krbrook7, krbrook7@asu.edu
+
+public static void insertName(ArrayList<String> pList, String pName) {
+    int insertIndex = 0;
+    for (int index = 0; index < pList.size(); index++) {
+        if (pList.get(index).compareTo(pName) < 0) {
+            insertIndex = index + 1;
+        }
+    }
+    pList.add(insertIndex, pName);
+}
+

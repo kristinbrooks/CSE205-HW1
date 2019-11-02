@@ -1,0 +1,13 @@
+// Hw1_37
+// AUTHOR: Kristin Brooks, krbrook7, krbrook7@asu.edu
+
+// I used a for loop and decremented it after elements were removed.
+// Then I only needed an if statement and not an if/else statement.
+public static void arrayListRemove(ArrayList<Integer> pList, int pValue) {
+    for (int index = 0; index < pList.size(); index++) {
+        if (pList.get(index) == pValue) {
+            pList.remove(index);
+            index--;
+        }
+    }
+}

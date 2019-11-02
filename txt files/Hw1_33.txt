@@ -1,0 +1,11 @@
+// Hw1_33
+// AUTHOR: Kristin Brooks, krbrook7, krbrook7@asu.edu
+
+int count = 0;
+for (Integer element : list) {
+    if (element < 0) {
+        count += 1;
+    }
+}
+System.out.println("Count: " + count)
+
