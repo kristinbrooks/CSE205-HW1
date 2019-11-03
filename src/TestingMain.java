@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Main_hw1_3 {
+public class TestingMain {
 
     public static void main(String[] args) {
 
